@@ -1,8 +1,8 @@
 import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r115/build/three.module.js';
 
 const canvas = document.createElement("canvas")
-canvas.width = 960
-canvas.height = 600
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
 var context = canvas.getContext( 'webgl2', { alpha: false } );
 document.body.appendChild(canvas)
 
